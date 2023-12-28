@@ -255,7 +255,7 @@ input:focus{
     left: 0;
     height: 100%;
     width: 250px;
-    z-index: 1;
+    z-index: 9999;
 }
 
 /**************************/
@@ -1923,7 +1923,7 @@ button {
 }
 
 .home .sixth-section .column {
-  padding: 20px;
+  padding: 20px ;
   margin: auto;
   width: 95%;
   justify-content: center;
@@ -2061,6 +2061,13 @@ button {
   }
   .home .fifth-section img {
       width: 100%;
+  }
+  .home .sixth-section .column {
+    padding: 20px 0;
+    margin: auto;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -2535,7 +2542,7 @@ button {
 .vc-item {
   width: 100%;
   max-width: 370px;
-  min-width: 370px;
+  min-width: 320px;
   min-height: 370px;
   max-height: 370px;
   border-radius: 8px;
@@ -2548,7 +2555,8 @@ button {
 .vc-item.community {
   min-height: max-content;
   height: 370px;
-  min-width: 400px;
+  min-width: 320px;
+  width: 400px;
 }
 
 .vc-item:hover {
@@ -2615,6 +2623,7 @@ button {
 .workshops-section{
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
@@ -2645,7 +2654,8 @@ button {
 /* Individual Featured Feature Item */
 .featured-vc-item {
   width: 30%;
-  min-width: 370px;
+  max-width: 370px;
+  min-width: 320px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -2701,8 +2711,9 @@ button {
 
 @media (max-width: 480px) {
   .vc-item,
-  .featured-vc-item {
-      width: 100%;
+  .featured-vc-item,
+  .vc-item.community {
+      width: 95%;
   }
 }
 
