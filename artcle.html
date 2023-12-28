@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mlebuu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <!-- Logo and Menu Icon -->
+                <a href="index.html" class="logo-container">
+                    <p>Mlebuu</p>
+                    <img src="images/icons/video-camera.png" alt="logo" width="40px">
+                </a>
+                <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+
+                <!-- Navigation Links -->
+                <div class="navigation-links">
+                    <a href="index.html">Home</a>
+                    <a href="about_us.html">About Us</a>
+
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown" >
+                            <label for="toggleNav"><span class="navTitle">Meeting</span></label>               
+                            <input type="checkbox" id="toggleNav"> 
+                            <ul class="navList">
+                                <li class="navItem"><a class="navLink" href="call.html">Call</a></li> 
+                                <li class="navItem"><a class="navLink" href="download.html">Download</a></li> 
+                                <li class="navItem"><a class="navLink" href="about_us.html">About Us</a></li> 
+                                <li class="navItem"><a class="navLink" href="contect_us.html">Contact Us</a></li>
+                                <li class="navItem"><a class="navLink" href="evevt-workshops.html">Events</a></li>
+                                <li class="navItem"><a class="navLink" href="Partners.html">Partners</a></li>
+                                <li class="navItem"><a class="navLink" href="artcle.html">Article</a></li>
+                            </ul>
+                    </div>
+
+                    <a href="sign_up.html" class="register-nav">Daftar</a>
+                    <a href="sign_in.html" class="login-nav">Masuk</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar"  onmouseleave="toggleSidebar()">
+        <div class="sidebar-links">
+            <a href="index.html">Home</a>
+            <a href="call.html">Call</a>
+            <a href="download.html">Download</a>
+            <a href="evevt-workshops.html">Events & Workshop</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contect_us.html">Contact Us</a>
+            <a href="Partners.html">Partners</a>
+            <a href="artcle.html">Article</a>
+            <a href="sign_up.html" class="register-nav">Daftar</a>
+            <a href="sign_in.html" class="login-nav">Masuk</a>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+
+
+    <div class="article-section">    
+        <!-- Header section with the main title -->
+        <div class="article-header">
+            <h1><span>Latest</span> Articles</h1>
+        </div>
+        <!-- List of articles with individual items -->
+        <div class="article-list">
+            
+            <!-- Article Item 1 -->
+            <div class="article-item">
+                <img src="images/article/article.jpg" alt="article 1">
+                <!-- Information about the article (date, author) -->
+                <div class="article-info">
+                    <span class="article-date">January 1, 2023</span>
+                    <span class="article-author">By: Ahmed El-Sayed</span>
+                </div>
+                <!-- Title of the article with a link -->
+                <h2 class="article-title"><a href="show_artical.html?title=Benefits of Daily Reading">Benefits of Daily Reading</a></h2>
+            </div>
+            
+            <!-- Article Item 2 -->
+            <div class="article-item">
+                <img src="images/article/article(1).png" alt="article 2">
+                <div class="article-info">
+                    <span class="article-date">February 27, 2023</span>
+                    <span class="article-author">By: Sarah Omar</span>
+                </div>
+                <h2 class="article-title"><a href="show_artical.html?title=Enhancing Critical Thinking Through Reading">Enhancing Critical Thinking Through Reading</a></h2>
+            </div>
+            
+            <!-- Article Item 3 -->
+            <div class="article-item">
+                <img src="images/article/article(1).jpg" alt="article 3">
+                <div class="article-info">
+                    <span class="article-date">February 15, 2023</span>
+                    <span class="article-author">By: Sarah Omar</span>
+                </div>
+                <h2 class="article-title"><a href="show_artical.html?title=Exciting Journey to Discover Heritage">Exciting Journey to Discover Heritage</a></h2>
+            </div>
+            
+        </div> 
+    </div> 
+    <!-- most read articles section -->
+    <div class="article-showcase-section">
+        <!-- Header for the article showcase section -->
+        <div class="article-header">
+            <h1><span>Most Read</span> Articles</h1>
+        </div>
+        <div class="featured-article-list">
+    
+            <!-- Featured Article Item 1 -->
+            <div class="featured-article-item">
+                <img src="images/article/article(2).jpg" alt="featured article 1">
+                <div class="article-info">
+                    <span class="article-date">March 10, 2023</span>
+                    <span class="article-author">By: John Doe</span>
+                </div>
+                <h2 class="article-title"><a href="show_artical.html?title=Journey into Arab Literature">Journey into Arab Literature</a></h2>
+            </div>
+    
+            <!-- Featured Article Item 2 -->
+            <div class="featured-article-item">
+                <img src="images/article/article(3).jpg" alt="featured article 2">
+                <div class="article-info">
+                    <span class="article-date">April 5, 2023</span>
+                    <span class="article-author">By: Jane Smith</span>
+                </div>
+                <h2 class="article-title"><a href="show_artical.html?title=Books Introducing Cultures and Traditions">Books Introducing Cultures and Traditions</a></h2>
+            </div>
+    
+            <!-- Featured Article Item 3 -->
+            <div class="featured-article-item">
+                <img src="images/article/article(2).png" alt="featured article 3">
+                <div class="article-info">
+                    <span class="article-date">May 20, 2023</span>
+                    <span class="article-author">By: Alex Johnson</span>
+                </div>
+                <h2 class="article-title"><a href="show_artical.html?title=World Arabic Language Day">World Arabic Language Day</a></h2>
+            </div>
+    
+        </div> 
+    </div> 
+    
+    <!-- article exhibits section -->
+    <div class="article-exhibits">
+            <!-- Header for the article article section -->
+            <div class="article-header">
+                <h1>Articles that <span>Interest</span> you</h1>
+            </div>
+        <!-- Exhibit Item 1 -->
+        <div class="exhibit-item">
+            <img src="images/article/article(1).jpg" alt="exhibit 1">
+            <div class="exhibit-info">
+                <span class="exhibit-date">March 10, 2023</span>
+                <span class="exhibit-author">By: John Doe</span>
+            </div>
+            <h2 class="exhibit-title"><a href="show_artical.html?title=Exciting Journey to Discover Heritage">Exciting Journey to Discover Heritage</a></h2>
+        </div>
+        
+        <!-- Exhibit Item 2 -->
+        <div class="exhibit-item">
+            <img src="images/article/article(2).png" alt="exhibit 2">
+            <div class="exhibit-info">
+                <span class="exhibit-date">April 5, 2023</span>
+                <span class="exhibit-author">By: Jane Smith</span>
+            </div>
+            <h2 class="exhibit-title"><a href="show_artical.html?title=World Arabic Language Day">World Arabic Language Day</a></h2>
+        </div>
+        
+        <!-- Exhibit Item 3 -->
+        <div class="exhibit-item">
+            <img src="images/article/article(2).jpg" alt="exhibit 3">
+            <div class="exhibit-info">
+                <span class="exhibit-date">May 20, 2023</span>
+                <span class="exhibit-author">By: Alex Johnson</span>
+            </div>
+            <h2 class="exhibit-title"><a href="show_artical.html?title=Journey into Arab Literature">Journey into Arab Literature</a></h2>
+        </div>
+        
+    </div>
+    
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content" >
+            <!-- About Footer Column -->
+            <div class="footer-column about-footer">
+                <h3>Powered By</h3>
+                <div>Mlebuu <img src="images/icons/video-camera(2).png" alt=""></div>
+                <p>
+                    Creative Agency
+                    Kudus, East Java, Indonesia
+                </p>
+            </div>
+
+            <!-- Company Footer Column -->
+            <div class="footer-column">
+                <h3>Our Company</h3>
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="evevt-workshops.html">Events & Workshop</a></li>
+                    <li><a href="artcle.html">Article</a></li>
+                    <li><a href="Partners.html">Partners</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Service Footer Column -->
+            <div class="footer-column">
+                <h3>Our Service</h3>
+                <ul>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="#">Branding Strategy</a></li>
+                    <li><a href="#">Marketing Strategy</a></li>
+                    <li><a href="#">Branding Consultant</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Footer Column -->
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="Terms.html">Terms & Condition</a></li>
+                    <li><a href="FAQ.html">FQL</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

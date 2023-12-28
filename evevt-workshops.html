@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mlebuu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <!-- Logo and Menu Icon -->
+                <a href="index.html" class="logo-container">
+                    <p>Mlebuu</p>
+                    <img src="images/icons/video-camera.png" alt="logo" width="40px">
+                </a>
+                <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+
+                <!-- Navigation Links -->
+                <div class="navigation-links">
+                    <a href="index.html">Home</a>
+                    <a href="about_us.html">About Us</a>
+
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown" >
+                            <label for="toggleNav"><span class="navTitle">Meeting</span></label>               
+                            <input type="checkbox" id="toggleNav"> 
+                            <ul class="navList">
+                                <li class="navItem"><a class="navLink" href="call.html">Call</a></li> 
+                                <li class="navItem"><a class="navLink" href="download.html">Download</a></li> 
+                                <li class="navItem"><a class="navLink" href="about_us.html">About Us</a></li> 
+                                <li class="navItem"><a class="navLink" href="contect_us.html">Contact Us</a></li>
+                                <li class="navItem"><a class="navLink" href="evevt-workshops.html">Events</a></li>
+                                <li class="navItem"><a class="navLink" href="Partners.html">Partners</a></li>
+                                <li class="navItem"><a class="navLink" href="artcle.html">Article</a></li>
+                            </ul>
+                    </div>
+
+                    <a href="sign_up.html" class="register-nav">Daftar</a>
+                    <a href="sign_in.html" class="login-nav">Masuk</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar"  onmouseleave="toggleSidebar()">
+        <div class="sidebar-links">
+            <a href="index.html">Home</a>
+            <a href="call.html">Call</a>
+            <a href="download.html">Download</a>
+            <a href="evevt-workshops.html">Events & Workshop</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contect_us.html">Contact Us</a>
+            <a href="Partners.html">Partners</a>
+            <a href="artcle.html">Article</a>
+            <a href="sign_up.html" class="register-nav">Daftar</a>
+            <a href="sign_in.html" class="login-nav">Masuk</a>
+        </div>
+    </div>
+
+
+<!-- Main Content Section -->
+<div class="virtual-connect-section">
+    <!-- VirtualConnect Header Section -->
+    <div class="vc-header">
+        <h1>
+            Explore VirtualConnect
+            <span>Communication Platform</span>
+        </h1>
+    </div>
+
+    <!-- List of Features with Individual Items -->
+    <div class="vc-list">
+
+        <div class="vc-event-section">
+            <!-- Feature Item 1 -->
+        <div class="vc-item">
+            <img src="images/Event&W-Shop image/Variant-B_Image_Desktop.webp" alt="feature 2">
+            <div class="vc-info">
+                <span class="vc-date">Collaboration Tools</span>
+                <span class="vc-author">By: VirtualConnect Team</span>
+            </div>
+            <h2 class="vc-title">
+                <a href="#">Enhance collaboration with advanced tools</a>
+            </h2>
+        </div>
+        
+        <!-- Feature Item 2 -->
+        <div class="vc-item">
+            <img src="images/Event&W-Shop image/event2.jpeg" alt="community 2">
+            <div class="vc-info">
+                <span class="vc-date">Networking Opportunities</span>
+                <span class="vc-author">By: VirtualConnect Networking Team</span>
+            </div>
+            <h2 class="vc-title">
+                <a href="#">Expand your professional network</a>
+            </h2>
+        </div>
+        </div>
+        <!-- Latest Features Showcase Section -->
+        
+        <div class="vc-showcase-section">
+            <!-- Header for the Latest Features Showcase Section -->
+            <div class="vc-header">
+                <h1>
+                    Latest
+                    <span>Features</span>
+                </h1>
+            </div>
+            <div class="featured-vc-list">
+                <!-- Featured Feature Item 1 -->
+                <div class="featured-vc-item">
+                    <img src="images/Event&W-Shop image/workshop1.svg" alt="featured feature 1">
+                    <div class="vc-info">
+                        <span class="vc-date">Cloud Storage Integration</span>
+                        <span class="vc-author">By: VirtualConnect Developers</span>
+                    </div>
+                    <h2 class="vc-title">
+                        <a href="#">Seamlessly store and access files</a>
+                    </h2>
+                </div>
+                <!-- Featured Feature Item 2 -->
+                <div class="featured-vc-item">
+                    <img src="images/Event&W-Shop image/workshop2.jpeg" alt="featured feature 2">
+                    <div class="vc-info">
+                        <span class="vc-date">Virtual Backgrounds</span>
+                        <span class="vc-author">By: VirtualConnect Design Team</span>
+                    </div>
+                    <h2 class="vc-title">
+                        <a href="#">Customize your virtual space</a>
+                    </h2>
+                </div>
+                <!-- Add more Featured Feature Items as needed -->
+            </div>
+        </div>
+
+        <!-- VirtualConnect Workshops Section -->
+        <div class="vc-workshops">
+            <!-- Header For The VirtualConnect Workshops Section -->
+            <div class="vc-header">
+                <h1>
+                    VirtualConnect
+                    <span>Workshops</span>
+                </h1>
+            </div>
+            <br><br>
+            <!-- Oldest Workshops Section -->
+            <div class="vc-header">
+                <h1>
+                    <span>Oldest</span>
+                    Workshops
+                </h1>
+            </div>
+            <div class="workshops-section">
+                    <!-- Workshop Item 1 -->
+                <div class="vc-item">
+                    <img src="images/Event&W-Shop image/workshop3.png" alt="workshop 1">
+                    <div class="vc-info">
+                        <span class="vc-date">Online Productivity</span>
+                        <span class="vc-author">By: VirtualConnect Experts</span>
+                    </div>
+                    <h2 class="vc-title">
+                        <a href="#">Boost Your Productivity</a>
+                    </h2>
+                </div>
+                <!-- Workshop Item 2 -->
+                <div class="vc-item">
+                    <img src="images/Event&W-Shop image/Workshop4.jpeg" alt="workshop 2">
+                    <div class="vc-info">
+                        <span class="vc-date">Effective Communication</span>
+                        <span class="vc-author">By: VirtualConnect Team</span>
+                    </div>
+                    <h2 class="vc-title">
+                        <a href="#">Communication Skills</a>
+                    </h2>
+                </div>
+                <!-- Add more Workshop Items as needed -->
+            </div>
+
+            <!-- Latest Workshops Section -->
+            <div class="vc-header">
+                <h1>
+                    <span>Latest</span>
+                    Workshops
+                </h1>
+            </div>
+            <div class="workshops-section">
+                <!-- Workshop Item 1 -->
+                <div class="vc-item">
+                    <img src="images/Event&W-Shop image/Workshop5.jpeg" alt="workshop 1">
+                    <div class="vc-info">
+                        <span class="vc-date">Virtual Reality Integration</span>
+                        <span class="vc-author">By: VirtualConnect Innovators</span>
+                    </div>
+                    <h2 class="vc-title">
+                        <a href="#">Explore the world of Virtual Reality</a>
+                    </h2>
+                </div>
+                <!-- Workshop Item 2 -->
+                <div class="vc-item">
+                    <img src="images/Event&W-Shop image/Workshop6.jpeg" alt="workshop 2">
+                    <div class="vc-info">
+                        <span class="vc-date">Digital Marketing</span>
+                        <span class="vc-author">By: VirtualConnect Marketing Team</span>
+                    </div>
+                    <h2 class="vc-title">
+                        <a href="#">Strategies for Digital Marketing</a>
+                    </h2>
+                </div>
+                <!-- Add more Workshop Items as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- VirtualConnect Community Section -->
+    <div class="vc-section">
+        <div class="vc-header">
+            <h1>
+                Join the VirtualConnect <span>Community</span>
+            </h1>
+        </div>
+        <div class="vc-list">
+            <!-- Community Card 1 -->
+            <div class="vc-item community">
+                <img src="images/Event&W-Shop image/Workshop7.jpg" alt="community 1">
+                <p class="vc-title">
+                    Connect with professionals, enthusiasts, and experts who share your interests.
+                </p>
+            </div>
+            <!-- Community Card 2 -->
+            <div class="vc-item community">
+                <img src="images/Event&W-Shop image/Workshop8.png" alt="feature 3">
+                <p class="vc-title">
+                    Collaborate seamlessly with your team through group chats, file sharing, and collaborative editing tools.
+                </p>
+            </div>
+            <!-- Community Card 3 -->
+            <div class="vc-item community">
+                <img src="images/Event&W-Shop image/Workshop9.jpeg" alt="feature 1">
+                <!-- Description of the feature -->
+                <p class="vc-title">
+                    Connect with colleagues and friends effortlessly through high-quality video calls and instant messaging.
+                </p>
+            </div>
+            <!-- Add more Community Cards as needed -->
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content" >
+            <!-- About Footer Column -->
+            <div class="footer-column about-footer">
+                <h3>Powered By</h3>
+                <div>Mlebuu <img src="images/icons/video-camera(2).png" alt=""></div>
+                <p>
+                    Creative Agency
+                    Kudus, East Java, Indonesia
+                </p>
+            </div>
+
+            <!-- Company Footer Column -->
+            <div class="footer-column">
+                <h3>Our Company</h3>
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="evevt-workshops.html">Events & Workshop</a></li>
+                    <li><a href="artcle.html">Article</a></li>
+                    <li><a href="Partners.html">Partners</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Service Footer Column -->
+            <div class="footer-column">
+                <h3>Our Service</h3>
+                <ul>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="#">Branding Strategy</a></li>
+                    <li><a href="#">Marketing Strategy</a></li>
+                    <li><a href="#">Branding Consultant</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Footer Column -->
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="Terms.html">Terms & Condition</a></li>
+                    <li><a href="FAQ.html">FQL</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

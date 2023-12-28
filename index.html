@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mlebuu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+     <!-- Header Section -->
+     <header>
+        <div class="header-container">
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <!-- Logo and Menu Icon -->
+                <a href="index.html" class="logo-container">
+                    <p>Mlebuu</p>
+                    <img src="images/icons/video-camera.png" alt="logo" width="40px">
+                </a>
+                <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+
+                <!-- Navigation Links -->
+                <div class="navigation-links">
+                    <a href="index.html">Home</a>
+                    <a href="about_us.html">About Us</a>
+
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown" >
+                            <label for="toggleNav"><span class="navTitle">Meeting</span></label>               
+                            <input type="checkbox" id="toggleNav"> 
+                            <ul class="navList">
+                                <li class="navItem"><a class="navLink" href="call.html">Call</a></li> 
+                                <li class="navItem"><a class="navLink" href="download.html">Download</a></li> 
+                                <li class="navItem"><a class="navLink" href="about_us.html">About Us</a></li> 
+                                <li class="navItem"><a class="navLink" href="contect_us.html">Contact Us</a></li>
+                                <li class="navItem"><a class="navLink" href="evevt-workshops.html">Events</a></li>
+                                <li class="navItem"><a class="navLink" href="Partners.html">Partners</a></li>
+                                <li class="navItem"><a class="navLink" href="artcle.html">Article</a></li>
+                            </ul>
+                    </div>
+
+                    <a href="sign_up.html" class="register-nav">Daftar</a>
+                    <a href="sign_in.html" class="login-nav">Masuk</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar"  onmouseleave="toggleSidebar()">
+        <div class="sidebar-links">
+            <a href="index.html">Home</a>
+            <a href="call.html">Call</a>
+            <a href="download.html">Download</a>
+            <a href="evevt-workshops.html">Events & Workshop</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contect_us.html">Contact Us</a>
+            <a href="Partners.html">Partners</a>
+            <a href="artcle.html">Article</a>
+            <a href="sign_up.html" class="register-nav">Daftar</a>
+            <a href="sign_in.html" class="login-nav">Masuk</a>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+
+
+    <div class="main-content home">
+        <!-- Your content here -->
+        <section class="first-section">
+            <div class="left-content">
+                <div class="text">
+                    <h1><span>Meeting</span> online dengan semuanya hanya dengan <span>satu klik</span></h1>
+                </div>
+                <div class="buttons">
+                    <div class="left-btn"><button>
+                        <span>
+                            <img src="./images/icons/video-camera 1.svg" width="30px" alt="">
+                    </span>Buat meeting</button></div>
+                    <div class="right-btn"><button>
+                        <span>
+                            <img src="./images/icons/keyboard 1.svg" width="30px" alt="">
+                    </span>Masukkan kode</button></div>
+                </div>
+                <div class="last">Pelajari lebih lanjut <span><img src="./images/icons/Vector 2.svg" alt=""></span></div>
+            </div>
+
+            <div class="right-content"><img src=".//images/img/Remote meeting.png" alt=""></div>
+        </section>
+
+
+        <section class="second-section">
+            <div class="left-content">
+                <img src="./images/img/Group video-rafiki.png" alt="">
+            </div>
+            <div class="right-content">
+                <h1>About <span>us</span></h1>
+                <p>Mlebuu merupakan aplikasi meeting online yang tersedia di android dan pc mempunyai berbagai fitur seperti , chat , video call , translate , raise hand , room unlimited , share screen cocok untuk semua kalangan dan semua profesi untuk mempermudah
+                    pekerjaan.
+                </p>
+                <a href="#">Baca selengkapnya<span><img src="./images/icons/Vector 2.svg" alt=""></span></a>
+            </div>
+        </section>
+        <section class="third-section">
+            <div class="left-content">
+                <div class="container">
+                    <h1>Mengapa kami lebih direkomendasikan ?</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="84" height="6" viewBox="0 0 84 6" fill="none">
+                    <path d="M3 3H81" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                    <p>Alasan mengapa kostumer lebih memilih kami sehingga kami menempati peringkat ke 1</p>
+                    <button>Mengapa</button>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="right-content mySwiper">
+                    <div class="slider swiper-wrapper">
+
+                        <div class="card swiper-slide" style="margin-right: 0px !important;">
+                            <div class="wrapper">
+                                <img class="icon" src="./images/icons/google 1.svg" alt="" srcset="">
+                                <h1>Google</h1>
+                                <div class="star">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                </div>
+                                <p>“Very Nice Application and easy to use”</p>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide" style="margin-right: 0px !important;">
+                            <div class="wrapper">
+                                <img class="icon" src="./images/icons/facebook 1.svg" alt="" srcset="">
+                                <h1>Facebook</h1>
+                                <div class="star">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                </div>
+                                <p>“Beautifull application nice featured”</p>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide" style="margin-right: 0px !important;">
+                            <div class="wrapper">
+                                <img class="icon" src="./images/icons/x-twitter.svg" style="width: 70px;height: 70px;" alt="" srcset="">
+                                <h1>X-twitter</h1>
+                                <div class="star">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                    <img src="./images/icons/star 1.svg" alt="" srcset="">
+                                </div>
+                                <p>“A new easy to use modern app”</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+
+                    <div class="swiper-button-prev" style="display: none;"></div>
+                    <div class="swiper-button-next" style="display: none;"></div>
+
+                    <div class="swiper-scrollbar " style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+        <section class="fourth-section">
+            <div class="title">
+                <h2>Partner <span>Kami</span></h2>
+            </div>
+            <div class="icon-container">
+                <img class="icon" src="./images/icons/twitter.png" alt="">
+                <img class="icon" src="./images/icons/line.png" alt="">
+                <img class="icon" src="./images/icons/linkedin-in.png" alt="">
+                <img class="icon" src="./images/icons/linux.png" alt="">
+            </div>
+            <div class="icon-container">
+                <img class="icon" src="./images/icons/google.png" alt="">
+                <img class="icon" src="./images/icons/facebook.png" alt="">
+                <img class="icon span-two-columns" src="./images/icons/node-js.png" alt="">
+            </div>
+        </section>
+        <section class="fifth-section">
+            <img src="./images/img/Group video-pana 1.png" alt="">
+        </section>
+        <section class="sixth-section">
+            <div class="grid-container">
+                <div class="column">
+                    <h2>Versi <span>Berbayar</span></h2>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Room Unlimited</p>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Share Screen</p>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Chatting</p>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Translate</p>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Raise Hand</p>
+                </div>
+                <div class="line"></div>
+                <div class="column sec-col">
+                    <h2>Versi <span>Gratis</span></h2>
+                    <p><span><img class="x" src="./images/icons/success 11.svg" alt=""></span>Room Unlimited</p>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Share Screen</p>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Chatting</p>
+                    <p><span><img class="x" src="./images/icons/success 11.svg" alt=""></span>Translate</p>
+                    <p><span><img src="./images/icons/success 2.svg" alt=""></span>Raise Hand</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+     <!-- Footer Section -->
+     <footer>
+        <div class="footer-content" >
+            <!-- About Footer Column -->
+            <div class="footer-column about-footer">
+                <h3>Powered By</h3>
+                <div>Mlebuu <img src="images/icons/video-camera(2).png" alt=""></div>
+                <p>
+                    Creative Agency
+                    Kudus, East Java, Indonesia
+                </p>
+            </div>
+
+            <!-- Company Footer Column -->
+            <div class="footer-column">
+                <h3>Our Company</h3>
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="evevt-workshops.html">Events & Workshop</a></li>
+                    <li><a href="artcle.html">Article</a></li>
+                    <li><a href="Partners.html">Partners</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Service Footer Column -->
+            <div class="footer-column">
+                <h3>Our Service</h3>
+                <ul>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="#">Branding Strategy</a></li>
+                    <li><a href="#">Marketing Strategy</a></li>
+                    <li><a href="#">Branding Consultant</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Footer Column -->
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="Terms.html">Terms & Condition</a></li>
+                    <li><a href="FAQ.html">FQL</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
+    <script src="js/script.js "></script>
+</body>
+
+</html>

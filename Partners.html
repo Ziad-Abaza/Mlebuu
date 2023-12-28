@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mlebuu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+     <!-- Header Section -->
+     <header>
+        <div class="header-container">
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <!-- Logo and Menu Icon -->
+                <a href="index.html" class="logo-container">
+                    <p>Mlebuu</p>
+                    <img src="images/icons/video-camera.png" alt="logo" width="40px">
+                </a>
+                <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+
+                <!-- Navigation Links -->
+                <div class="navigation-links">
+                    <a href="index.html">Home</a>
+                    <a href="about_us.html">About Us</a>
+
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown" >
+                            <label for="toggleNav"><span class="navTitle">Meeting</span></label>               
+                            <input type="checkbox" id="toggleNav"> 
+                            <ul class="navList">
+                                <li class="navItem"><a class="navLink" href="call.html">Call</a></li> 
+                                <li class="navItem"><a class="navLink" href="download.html">Download</a></li> 
+                                <li class="navItem"><a class="navLink" href="about_us.html">About Us</a></li> 
+                                <li class="navItem"><a class="navLink" href="contect_us.html">Contact Us</a></li>
+                                <li class="navItem"><a class="navLink" href="evevt-workshops.html">Events</a></li>
+                                <li class="navItem"><a class="navLink" href="Partners.html">Partners</a></li>
+                                <li class="navItem"><a class="navLink" href="artcle.html">Article</a></li>
+                            </ul>
+                    </div>
+
+                    <a href="sign_up.html" class="register-nav">Daftar</a>
+                    <a href="sign_in.html" class="login-nav">Masuk</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar"  onmouseleave="toggleSidebar()">
+        <div class="sidebar-links">
+            <a href="index.html">Home</a>
+            <a href="call.html">Call</a>
+            <a href="download.html">Download</a>
+            <a href="evevt-workshops.html">Events & Workshop</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contect_us.html">Contact Us</a>
+            <a href="Partners.html">Partners</a>
+            <a href="artcle.html">Article</a>
+            <a href="sign_up.html" class="register-nav">Daftar</a>
+            <a href="sign_in.html" class="login-nav">Masuk</a>
+        </div>
+    </div>
+
+
+    <!-- Main Content Section -->
+
+    <div class="partners-section">
+        <div class="partners-header">
+            <h2>Our <span>Partners</span></h2>
+        </div>
+        <div class="partners-list">
+            <!-- Partner 1 -->
+            <div class="partner-item">
+                <img src="images/icons/Partners(1).png" alt="">
+            </div>
+            <!-- Partner 2 -->
+            <div class="partner-item">
+                <img src="images/icons/Partners(3).jpeg" alt="">
+            </div>
+            <!-- Partner 3 -->
+            <div class="partner-item">
+                <img src="images/icons/Partners(2).jpeg" alt="">
+            </div>
+            <!-- Partner 2 -->
+            <div class="partner-item">
+                <img src="images/icons/Partners(5).png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="testimonials-section">
+        <div class="testimonials-header">
+            <h2>What Our<span> Clients</span> Say</h2>
+        </div>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <img src="images/Client/comments-1.jpg" alt="">
+                <p class="testimonial-text">Working with this team has been an amazing experience. They delivered exceptional results and exceeded our expectations.</p>
+                <p class="client-name-DD">Ashji Mohammed</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/Client/comments-3.jpg" alt="">
+                <p class="testimonial-text">The professionalism and creativity of this team are unmatched. I highly recommend their services to anyone looking for quality work.</p>
+                <p class="client-name-DD">Najwa Khaled</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+     <!-- Footer Section -->
+     <footer>
+        <div class="footer-content" >
+            <!-- About Footer Column -->
+            <div class="footer-column about-footer">
+                <h3>Powered By</h3>
+                <div>Mlebuu <img src="images/icons/video-camera(2).png" alt=""></div>
+                <p>
+                    Creative Agency
+                    Kudus, East Java, Indonesia
+                </p>
+            </div>
+
+            <!-- Company Footer Column -->
+            <div class="footer-column">
+                <h3>Our Company</h3>
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="evevt-workshops.html">Events & Workshop</a></li>
+                    <li><a href="artcle.html">Article</a></li>
+                    <li><a href="Partners.html">Partners</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Service Footer Column -->
+            <div class="footer-column">
+                <h3>Our Service</h3>
+                <ul>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="#">Branding Strategy</a></li>
+                    <li><a href="#">Marketing Strategy</a></li>
+                    <li><a href="#">Branding Consultant</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Footer Column -->
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="Terms.html">Terms & Condition</a></li>
+                    <li><a href="FAQ.html">FQL</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
