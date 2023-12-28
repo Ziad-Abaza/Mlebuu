@@ -2444,11 +2444,11 @@ button {
 
 /******************************************************************************/
 
-.faq-section {
-  margin-top: 3rem;
-  text-align: center;
-}
+ .faq-section {
+    text-align: center;
+    margin: 20px auto;
 
+}
 .faq-section h2 {
   margin: 30px 0;
 }
@@ -2459,6 +2459,9 @@ button {
   gap: 20px;
   width: 90%;
   margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .faq-item {
