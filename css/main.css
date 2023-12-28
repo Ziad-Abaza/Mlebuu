@@ -2594,13 +2594,13 @@ button {
 
 /* Feature Title Links */
 .vc-title a {
-  color: #4285f4;
+  color: #39A9CB;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .vc-title a:hover {
-  color: #2563db;
+  color: #39A9CB;
 }
 
 /* Latest Features Showcase Section */
@@ -2635,11 +2635,10 @@ button {
 
 .vc-showcase-section .vc-header h1 {
   font-size: 2rem;
-  color: #4285f4;
 }
 
 .vc-showcase-section .vc-header span {
-  color: #2563db;
+  color: #2896b8;
 }
 
 /* List of Featured Features */
@@ -2691,14 +2690,14 @@ button {
   display: block;
   padding: 15px;
   font-size: 1.2rem;
-  color: #4285f4;
+  color: #39A9CB;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .featured-vc-item .vc-title a:hover {
-  color: #2563db;
+  color: #2896b8;
 }
 
 /* Media query for responsive design */
